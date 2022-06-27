@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f137f5f-c6bd-402b-a26c-edfc3ad9418b" name="Changes" comment="add posotive and negative tests" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="29i8G5tEcIFU35DAlFioXr1FAuK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "F:/НРТК/mdk_01.02/backTicket/backTicketTest"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.NegativeTest.InvalidBuyingDateTest">
+    <configuration name="NegativeTest.EmptyFiledTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backTicketTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="EmptyFiledTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTest.InvalidBuyingDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backTicketTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidBuyingDateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTest.InvalidBuyingEndingDate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backTicketTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidBuyingEndingDate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTest.InvalidEndingDateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backTicketTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidEndingDateTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NegativeTest.InvalidPriceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="backTicketTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NegativeTest" />
+      <option name="METHOD_NAME" value="InvalidPriceTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.NegativeTest.InvalidBuyingDateTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidBuyingEndingDate" />
+        <item itemvalue="JUnit.NegativeTest.EmptyFiledTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidPriceTest" />
+        <item itemvalue="JUnit.NegativeTest.InvalidEndingDateTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f137f5f-c6bd-402b-a26c-edfc3ad9418b" name="Changes" comment="" />
+      <created>1653584449421</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1653584449421</updated>
+    </task>
+    <task id="LOCAL-00001" summary="edit main.java |&#10;add testcase">
+      <created>1653588881178</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653588881178</updated>
+    </task>
+    <task id="LOCAL-00002" summary="edit main.java |&#10;add testcase">
+      <created>1653588971024</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653588971024</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add posotive and negative tests">
+      <created>1653591210221</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653591210221</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add posotive and negative tests">
+      <created>1653591302701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653591302701</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="edit main.java |&#10;add testcase" />
+    <MESSAGE value="add posotive and negative tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="add posotive and negative tests" />
+  </component>
+</project>

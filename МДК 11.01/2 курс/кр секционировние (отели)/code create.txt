@@ -1,0 +1,78 @@
+CREATE TABLE IF NOT EXISTS hotels (
+  hotel_id INT NOT NULL,
+  name VARCHAR(45) NULL,
+  addres VARCHAR(45) NULL,
+  phone VARCHAR(45) NULL,
+  PRIMARY KEY (hotel_id))
+
+
+CREATE TABLE IF NOT EXISTS rooms_type (
+  type_id INT NOT NULL,
+  name VARCHAR(45) NULL,
+  PRIMARY KEY (type_id))
+
+
+CREATE TABLE IF NOT EXISTS rooms (
+  room_id INT NOT NULL,
+  hotel_id INT NOT NULL,
+  type_id INT NOT NULL,
+  capacity VARCHAR(45) NULL,
+  cost DECIMAL NULL,
+  PRIMARY KEY (room_id, hotel_id),
+    FOREIGN KEY (hotel_id)
+    REFERENCES hotels (hotel_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+    FOREIGN KEY (type_id)
+    REFERENCES rooms_type (type_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+
+
+CREATE TABLE IF NOT EXISTS client_type (
+  type_id INT NOT NULL,
+  sale TINYINT(3) NOT NULL,
+  name VARCHAR(45) NULL,
+  PRIMARY KEY (type_id))
+
+
+CREATE TABLE IF NOT EXISTS clients (
+  client_id INT NOT NULL,
+  passport VARCHAR(11) NULL,
+  FIO VARCHAR(45) NULL,
+  comment VARCHAR(300) NULL,
+  type_id INT NOT NULL,
+  sale TINYINT(3) NOT NULL,
+  PRIMARY KEY (client_id),
+    FOREIGN KEY (type_id , sale)
+    REFERENCES client_type (type_id , sale)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+
+
+CREATE TABLE IF NOT EXISTS settling (
+  settling_id INT NOT NULL,
+  client_id INT NOT NULL,
+  room_id INT NOT NULL,
+  hotel_id INT NOT NULL,
+  date_in DATE NULL,
+  date_out DATE NULL,
+  PRIMARY KEY (settling_id),
+    FOREIGN KEY (client_id)
+    REFERENCES clients (client_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE,
+    FOREIGN KEY (room_id , hotel_id)
+    REFERENCES rooms (room_id , hotel_id)
+    ON DELETE CASCADE
+    ON UPDATE CASCADE)
+
+
+CREATE TABLE IF NOT EXISTS old_clients (
+  client_id INT NOT NULL,
+  passport VARCHAR(11) NULL,
+  FIO VARCHAR(45) NULL,
+  comment VARCHAR(300) NULL,
+  type_id INT NULL,
+  sale TINYINT(3) NULL,
+  PRIMARY KEY (client_id))

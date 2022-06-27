@@ -1,0 +1,229 @@
+object Form1: TForm1
+  Left = 1436
+  Height = 318
+  Top = 309
+  Width = 420
+  Caption = 'Калькулятор'
+  ClientHeight = 318
+  ClientWidth = 420
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Button1: TButton
+    Left = 40
+    Height = 40
+    Top = 190
+    Width = 45
+    Caption = '1'
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 100
+    Height = 40
+    Top = 190
+    Width = 45
+    Caption = '2'
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 160
+    Height = 40
+    Top = 190
+    Width = 45
+    Caption = '3'
+    OnClick = Button3Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 40
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '4'
+    OnClick = Button4Click
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 100
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '5'
+    OnClick = Button5Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 160
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '6'
+    OnClick = Button6Click
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 40
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '7'
+    OnClick = Button7Click
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 100
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '8'
+    OnClick = Button8Click
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 160
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '9'
+    OnClick = Button9Click
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 40
+    Height = 40
+    Top = 250
+    Width = 105
+    Caption = '0'
+    OnClick = Button10Click
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 160
+    Height = 40
+    Top = 250
+    Width = 45
+    Caption = ','
+    OnClick = Button11Click
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 220
+    Height = 40
+    Top = 250
+    Width = 45
+    Caption = 'С'
+    OnClick = Button12Click
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 220
+    Height = 40
+    Top = 190
+    Width = 45
+    Caption = '='
+    OnClick = Button13Click
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button14: TButton
+    Left = 220
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '-'
+    OnClick = Button14Click
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button15: TButton
+    Left = 220
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '+'
+    OnClick = Button15Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Edit1: TEdit
+    Left = 40
+    Height = 28
+    Top = 20
+    Width = 345
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button16: TButton
+    Left = 280
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '*'
+    OnClick = Button16Click
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Button17: TButton
+    Left = 280
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '/'
+    OnClick = Button17Click
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Button18: TButton
+    Left = 280
+    Height = 40
+    Top = 190
+    Width = 45
+    Caption = 'sqrt'
+    OnClick = Button18Click
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button19: TButton
+    Left = 280
+    Height = 40
+    Top = 250
+    Width = 45
+    Caption = '^2'
+    OnClick = Button19Click
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button20: TButton
+    Left = 340
+    Height = 40
+    Top = 70
+    Width = 45
+    Caption = '+/-'
+    OnClick = Button20Click
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button21: TButton
+    Left = 340
+    Height = 40
+    Top = 130
+    Width = 45
+    Caption = '1/x'
+    OnClick = Button21Click
+    ParentFont = False
+    TabOrder = 21
+  end
+end

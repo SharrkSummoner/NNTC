@@ -1,0 +1,1679 @@
+{
+  "id": "b892a1eb-1527-4df0-bb03-fbc2ed76c876",
+  "version": "2.0",
+  "name": "animego",
+  "url": "https://animego.org",
+  "tests": [{
+    "id": "c807bd33-a169-4947-b803-ca1f393225e7",
+    "name": "anime_shedule",
+    "commands": [{
+      "id": "8e1c75e3-20ab-4bf3-b03e-a748634434fe",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "45a21720-a3ac-4bf7-9428-5a76f2f9df93",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0dae4b3f-8396-4901-9d88-800d3283473d",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Понедельник\"\"",
+      "command": "click",
+      "target": "css=.list-group:nth-child(2) > .card-header:nth-child(1) > .bb-dashed-1",
+      "targets": [
+        ["css=.list-group:nth-child(2) > .card-header:nth-child(1) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-monday')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b313873-43cb-48e7-a9c1-72beecb91ed1",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Понедельник\"\"",
+      "command": "click",
+      "target": "css=.list-group:nth-child(2) > .card-header:nth-child(3) > .bb-dashed-1",
+      "targets": [
+        ["css=.list-group:nth-child(2) > .card-header:nth-child(3) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-tuesday')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11c17dd1-f882-4ac0-b47b-07c06afcea0f",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Вторник\"",
+      "command": "click",
+      "target": "css=.list-group:nth-child(2) > .card-header:nth-child(3) > .bb-dashed-1",
+      "targets": [
+        ["css=.list-group:nth-child(2) > .card-header:nth-child(3) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-tuesday')]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ad66885-7de7-41b7-9f6e-a210b7b717c1",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Вторник\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(5) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(5) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-wednesday')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e23f5b1e-52a5-4177-9762-1efc8abb6345",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Среда\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(5) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(5) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[5]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-wednesday')]", "xpath:href"],
+        ["xpath=//div[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f71199e-fcb7-4d9b-b928-13f4448958d7",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Среда\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(7) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(7) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-thursday')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5b3a84b-39db-419f-9914-b40b6e8ad570",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Четверг\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(7) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(7) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-thursday')]", "xpath:href"],
+        ["xpath=//div[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f259e1c2-a308-4a0d-b056-f174dfe9265f",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Четверг\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(9)",
+      "targets": [
+        ["css=.card-header:nth-child(9)", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[9]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b2427be5-8b0b-4fee-8492-1e785e899ef7",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Пятница\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(9) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(9) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-friday')]", "xpath:href"],
+        ["xpath=//div[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "856ed322-05eb-40e3-946b-2d006faf8e4e",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Пятница\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(9) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(9) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-friday')]", "xpath:href"],
+        ["xpath=//div[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc3ca145-e697-4390-8730-c4bbf3d4f700",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Суббота\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(11) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(11) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-saturday')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "17f702a2-a294-41dd-a669-b0acffd546d6",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Суббота\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(11) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(11) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[11]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-saturday')]", "xpath:href"],
+        ["xpath=//div[11]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dca106d6-7ae2-481a-a17b-921be2b94f68",
+      "comment": "Click the text \"Развернуть\" on the block shedule anime \"Воскресенье\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(13) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(13) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[13]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-sunday')]", "xpath:href"],
+        ["xpath=//div[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "22dd4666-2dc6-4560-98d4-23288208d2f5",
+      "comment": "Click the text \"Свернуть\" on the block shedule anime \"Воскресенье\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(13) > .bb-dashed-1",
+      "targets": [
+        ["css=.card-header:nth-child(13) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[2]/div/div[2]/div[13]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-sunday')]", "xpath:href"],
+        ["xpath=//div[13]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "850c5c4d-9ee5-48bb-8e5e-6b78832c9901",
+    "name": "test_up_panel_buttons",
+    "commands": [{
+      "id": "a616bb6f-dfb1-4dd7-8331-6dbbd7eb4946",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c702cd7-690e-47da-9b32-8c09948c1a27",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "43e066ed-fa34-42f6-8cb4-54fb88eab524",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container img",
+      "targets": [
+        ["css=.container img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdd420ef-d21b-4a1f-8319-c1b800984367",
+      "comment": "Click the button on the main page up panel \"Аниме\"",
+      "command": "click",
+      "target": "linkText=Аниме",
+      "targets": [
+        ["linkText=Аниме", "linkText"],
+        ["css=.ml-2:nth-child(1) > .nav-item:nth-child(1) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://animego.org/anime')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5bc32e4-ff61-4098-accd-3fe90fadf38c",
+      "comment": "Click the button on the main page up panel \"Манга\"",
+      "command": "click",
+      "target": "linkText=Манга",
+      "targets": [
+        ["linkText=Манга", "linkText"],
+        ["css=.navbar-nav > .nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Манга')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://animego.org/manga')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Манга')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1450fc20-2bd3-461d-b5a1-99a59b0a4135",
+      "comment": "Click the button on the main page up panel \"Персонажи\"",
+      "command": "click",
+      "target": "linkText=Персонажи",
+      "targets": [
+        ["linkText=Персонажи", "linkText"],
+        ["css=.navbar-nav > .nav-item:nth-child(3) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Персонажи')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://animego.org/characters')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Персонажи')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6a0f15f2-a83f-4678-96cb-8c6933f93c0f",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dbd8cca-ac75-4e24-b503-74fd0edd9d82",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35b16d59-9b97-451e-a6ca-3b1af54ebe26",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9c2a0373-779b-4ca7-8fce-82bd09cc7eef",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "68c8ebab-217e-4dfb-b852-3d2f9ae5dc1d",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f304aff-415d-4067-b3de-3cdf21ea29b1",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8efe0a3b-b6aa-48e2-bab6-fd7a643b0349",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44cb68ff-ca48-4a47-817d-d5379ed5b884",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f9f9018a-35a5-4838-a788-4fa94f27ac6b",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "77f08abd-bf48-4946-8a3f-61cb301ac2c6",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7561a3e2-ce76-4b64-9f75-c355994b6a4e",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fdbcd65b-f2bf-476c-8ca5-f22d7ef5f892",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2c387a7-a034-4e9a-8cc1-815506dd2ea4",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a64b450e-6720-40ac-9f84-71a884e137f6",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a44eb61-2c77-4b89-8b53-54374f826219",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea9e501-f78e-411c-97e0-136a73effdcf",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48de994f-353d-422a-a960-98296ea5a3c2",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f61fb0de-b6e1-4bce-a45a-d5c12e3ec9fc",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "48f4d295-7fa1-45cc-a57c-2e3c723a60f3",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7487ccba-296f-4a61-a5a7-4c232e57b29c",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e19cd274-9b4c-4635-b8d1-24acca896fb7",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "288bdb9b-9dee-4a2b-88ea-ab03f5192948",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4538a9c5-7466-4772-be8a-b43fa5418434",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76d20f1a-8249-4062-b9e8-9b1f41cb8733",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3989eb19-bc6d-42fa-8810-054bb6dbd0f5",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce27f000-d3f8-4954-baad-ad230f27df6c",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f3c627b-2098-440f-92bc-86b3696659d9",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4b3fc91d-1686-49fe-9641-f4e09d13fe42",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75b36c08-af41-4f04-815d-0d007b144a9f",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a468840e-741b-4e67-8c75-80be5dafb30a",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9930bc25-1ce0-4ff9-8510-1bec3829ab33",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b000d23-6075-4be6-ac74-0d73cad3f5db",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d5222a42-c2f1-45c7-beb4-f8d41acc47c2",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "07985618-1060-47cb-bd53-59bf4cba7879",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3dd8d39c-94f7-4d16-b2ad-0fbc2ed2a427",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4edd3bee-b93d-4d43-afd9-ebedccc9f932",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8f4141b-a54e-4d22-825d-9b276f9a03a2",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b674fc79-bc59-4287-ad30-24722ddef3e8",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3eba077-f30e-4049-b27e-189327424524",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "274ca9aa-1d25-49be-aa59-e90da853a686",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ecd16294-9d2e-4639-865b-56a6adf40e14",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3cca46d-b1e8-4711-bc7e-dc4992d4fa31",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9040a400-d749-41cd-a243-f48992a8d7c0",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3d053134-3a0b-4c3d-a521-d61abff0658a",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54e28366-9e87-455e-8de7-ef112d8706b6",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8355c062-68e9-4f94-974d-fe3a2d502a7a",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09c50f96-da21-4067-b118-96e55cb60232",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb14ac52-613a-4e31-9ece-880a2f6ff30d",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43d6a63e-5c61-44a4-8bd6-85109d8cf456",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc964142-c98e-4386-a383-1d66eed3cdf6",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc779158-47ee-44a2-8a8e-7096116c7c37",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d3c74a9-6b63-4383-b8ab-7cf6763c7d3b",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75d86a7b-63e1-48b3-8dcb-ef5485add27c",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffa43f92-427b-47a0-8491-8cf2a969f8ac",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f072abcb-080c-4884-8d47-29002b354351",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "162379b1-7055-4104-b43c-fabb518fcbe0",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bc6e84-0f44-4124-abd8-07e6fa7b0a36",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76df837d-a4ad-4396-9634-9ddc87fbe706",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "64f6ca09-4965-4aeb-acb6-beabc77116c2",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "930f4538-68c7-471f-968c-38bab43cf5f5",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "00453026-4c0b-4962-b615-ffcad3c4ed17",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9873a251-d10d-4fdf-a99a-d7581de0eed0",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a67b8521-0e62-4c79-a781-49a7cac1ef6f",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d7694586-68e3-4a46-acd0-46532e8674a5",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4c351f0-ae01-46e2-a0d7-2a2bc4ae322e",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "32d1eb46-c9ac-4486-a3f6-e5bb55480e4b",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0a9ef62-3c0b-4f13-9707-36ff484e4afe",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fcc044e1-a554-436b-8b6e-c1128ce048b6",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb84b536-04a6-436c-86a4-5c20f084e49b",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90163a57-abdc-458f-a3bc-360849dc987c",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a16ab330-69bc-406e-9b23-a20b5c0447fe",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7a54f5-82b9-4959-b8d6-b3c64c8c2028",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f7ff9a1d-1af1-4ce0-99a0-9dc352cbe41e",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "010f1f63-bdd4-4790-8c20-513ac4a3b79b",
+      "comment": "Click the button on the main page up panel \"Случайное аниме\"",
+      "command": "click",
+      "target": "linkText=Случайное аниме",
+      "targets": [
+        ["linkText=Случайное аниме", "linkText"],
+        ["css=.d-none > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Случайное аниме')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/anime/random')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Случайное аниме')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "dc8774a9-f466-4e23-8723-2ffca51e84a7",
+    "name": "test_button_under_up_panel",
+    "commands": [{
+      "id": "51d68a43-5c39-4a10-816a-74448846751a",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9d7c69a3-2d12-4387-a9e7-e0a03026fdcf",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "016de0d0-784c-45b2-b7e1-afcc756a9da9",
+      "comment": "Click the button on the main page under up panel \"Онгоинги\"",
+      "command": "click",
+      "target": "linkText=Онгоинги",
+      "targets": [
+        ["linkText=Онгоинги", "linkText"],
+        ["css=.nav-item:nth-child(1) > .text-link-gray", "css:finder"],
+        ["xpath=//a[contains(text(),'Онгоинги')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div/div/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://animego.org/anime/status/ongoing')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Онгоинги')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a3ef042-c540-469e-ad12-34a1ec7dc314",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container img",
+      "targets": [
+        ["css=.container img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76882283-3284-4f57-a2ee-4df753783cde",
+      "comment": "Click the button on the main page under up panel \"2022 год\"",
+      "command": "click",
+      "target": "linkText=2022 год",
+      "targets": [
+        ["linkText=2022 год", "linkText"],
+        ["css=.nav-item:nth-child(2) > .text-link-gray", "css:finder"],
+        ["xpath=//a[contains(text(),'2022 год')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://animego.org/anime/season/2022')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2022 год')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1bc5063e-93ff-47be-88e3-2263ac550269",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "linkText=AnimeGO",
+      "targets": [
+        ["linkText=AnimeGO", "linkText"],
+        ["css=.container > .navbar-brand", "css:finder"],
+        ["xpath=//a[contains(@href, '/')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'AnimeGO')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "43e19a48-0cf0-439e-956c-22d025a2e116",
+      "comment": "Click the button on the main page under up panel \"2021 год\"",
+      "command": "click",
+      "target": "linkText=2021 год",
+      "targets": [
+        ["linkText=2021 год", "linkText"],
+        ["css=.nav-item:nth-child(3) > .text-link-gray", "css:finder"],
+        ["xpath=//a[contains(text(),'2021 год')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div/div/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://animego.org/anime/season/2021')]", "xpath:href"],
+        ["xpath=//div/div/div/ul/li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'2021 год')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0b2184ab-1124-4ef7-8ec7-689deb3f9344",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container img",
+      "targets": [
+        ["css=.container img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "0e86927f-6324-4089-9a2c-bb6bdaa24856",
+    "name": "anime_this_season",
+    "commands": [{
+      "id": "9badcc8f-3343-4323-a8cb-6b0b3014bfaf",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c22acd42-9cfe-4d4b-8b90-c7f8fe9be8f6",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d13b6f85-7863-4679-aae8-963508aee521",
+      "comment": "Click the text \"Аниме зимнего сезона\" on the main page",
+      "command": "click",
+      "target": "linkText=Аниме весеннего сезона",
+      "targets": [
+        ["linkText=Аниме весеннего сезона", "linkText"],
+        ["css=.text-dark", "css:finder"],
+        ["xpath=//a[contains(text(),'Аниме весеннего сезона')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[2]/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/anime/season/2022/spring')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Аниме весеннего сезона')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1d962b8-7a9a-4a9e-a6f6-b19de14c7324",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container img",
+      "targets": [
+        ["css=.container img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c99d8e64-2bf4-4777-afef-56b110f3796c",
+      "comment": "Click the image anime on the this season anime block",
+      "command": "click",
+      "target": "css=#tns1-item1 .anime-grid-lazy",
+      "targets": [
+        ["css=#tns1-item1 .anime-grid-lazy", "css:finder"],
+        ["xpath=//div[@id='tns1-item1']/div/a/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e07c651b-a3b4-4027-9e02-ec0f78c0d002",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container > .navbar-brand > img",
+      "targets": [
+        ["css=.container > .navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4daa1685-a54f-46fa-80da-7c4f30adeb7d",
+      "comment": "Click the text \"Непостижимая Ахарэн\" on the main page",
+      "command": "click",
+      "target": "linkText=Непостижимая Ахарэн",
+      "targets": [
+        ["linkText=Непостижимая Ахарэн", "linkText"],
+        ["css=#tns1-item1 .text-nowrap", "css:finder"],
+        ["xpath=//a[contains(text(),'Непостижимая Ахарэн')]", "xpath:link"],
+        ["xpath=//div[@id='tns1-item1']/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://animego.org/anime/nepostizhimaya-aharen-1988')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Непостижимая Ахарэн')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d20dbec-edbf-4397-bac5-ffd968b5d437",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container > .navbar-brand > img",
+      "targets": [
+        ["css=.container > .navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "34fc8506-c85e-40bf-9554-d9ac68823eee",
+    "name": "anime_update",
+    "commands": [{
+      "id": "67481f79-d5d9-4c3d-a909-7c8b7819b95f",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1456131-403b-4966-9a1a-c870890ab75e",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b1a4a0f-6187-433a-86df-a9e0f7920536",
+      "comment": "Click the last update anime on the update anime block",
+      "command": "click",
+      "target": "css=#slide-toggle-1 > .last-update-item:nth-child(1) .img-square",
+      "targets": [
+        ["css=#slide-toggle-1 > .last-update-item:nth-child(1) .img-square", "css:finder"],
+        ["xpath=//div[@id='slide-toggle-1']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddacb517-98b2-438e-adf5-443665cd69f9",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container > .navbar-brand > img",
+      "targets": [
+        ["css=.container > .navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "80810da0-4b65-4110-88eb-8b37032f600a",
+      "comment": "Click the under last update anime on the update anime block",
+      "command": "click",
+      "target": "css=#slide-toggle-1 > .last-update-item:nth-child(2) > .media",
+      "targets": [
+        ["css=#slide-toggle-1 > .last-update-item:nth-child(2) > .media", "css:finder"],
+        ["xpath=//div[@id='slide-toggle-1']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef5e04a6-c4cf-436e-b677-752eee0b5a7f",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container > .navbar-brand > img",
+      "targets": [
+        ["css=.container > .navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a7d27bcb-f0b8-4da0-81ab-60ca9f0429fb",
+      "comment": "Click the text \"Свернуть\" on the update anime block \"Сегодня\"",
+      "command": "click",
+      "target": "css=.list-group:nth-child(1) > .card-header:nth-child(1) > .bb-dashed-1",
+      "targets": [
+        ["css=.list-group:nth-child(1) > .card-header:nth-child(1) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e950a00-3017-46b3-ad2c-17cf09c0ac8b",
+      "comment": "Click the text \"Свернуть\" on the update anime block \"Вчера\"",
+      "command": "click",
+      "target": "css=.list-group:nth-child(1) > .card-header:nth-child(3) > .bb-dashed-1",
+      "targets": [
+        ["css=.list-group:nth-child(1) > .card-header:nth-child(3) > .bb-dashed-1", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-3')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9ff5b2fa-b1bf-4636-8097-d3fc06a611a8",
+      "comment": "Click the text \"Развернуть\" on the update anime block \"Сегодня\"",
+      "command": "click",
+      "target": "css=.card-header:nth-child(3) > .collapsed",
+      "targets": [
+        ["css=.card-header:nth-child(3) > .collapsed", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div/div/div[2]/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-3')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61b3c96b-8414-4c56-978b-d0020401d3d4",
+      "comment": "Click the text \"Развернуть\" on the update anime block \"Вчера\"",
+      "command": "click",
+      "target": "css=.collapsed",
+      "targets": [
+        ["css=.collapsed", "css:finder"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div/div/div[2]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#slide-toggle-1')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div/div/div[2]/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "12c52cb6-a738-47dc-b54e-cdca5a7f0377",
+    "name": "anime_resently_released",
+    "commands": [{
+      "id": "c5886abd-36c9-4e24-9e4f-5fce791cbe37",
+      "comment": "Open page https://animego.org/",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "180906e5-4392-48bd-a9c3-d8c29c4d31c4",
+      "comment": "Set window resolution",
+      "command": "setWindowSize",
+      "target": "1536x835",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "60b4135b-9ced-4f2e-84e1-9a81a48d201e",
+      "comment": "Click the text on the block resently released anime \"Все\"",
+      "command": "click",
+      "target": "linkText=Все",
+      "targets": [
+        ["linkText=Все", "linkText"],
+        ["css=.border-bottom-0 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Все')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[3]/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/anime/status/latest')]", "xpath:href"],
+        ["xpath=//div[4]/div/div/div[3]/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Все')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "89be355c-a629-46d6-96be-057e2997057e",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container img",
+      "targets": [
+        ["css=.container img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c3b9839d-8196-4d4b-8df9-5ce692f7c6c3",
+      "comment": "Click the text on the block resently released anime \"Мемуары Ванитаса. Часть 2\"",
+      "command": "click",
+      "target": "linkText=Мемуары Ванитаса. Часть 2",
+      "targets": [
+        ["linkText=Мемуары Ванитаса. Часть 2", "linkText"],
+        ["css=.border-top-0 .card-title", "css:finder"],
+        ["xpath=//a[contains(text(),'Мемуары Ванитаса. Часть 2')]", "xpath:link"],
+        ["xpath=//div[@id='wrap']/div[4]/div/div/div[3]/div/div[2]/div/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/anime/memuary-vanitasa-2-1933')]", "xpath:href"],
+        ["xpath=//div[3]/div/div[2]/div/div[2]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Мемуары Ванитаса. Часть 2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2bd9ce09-709c-4f85-8f28-b8a58b9cfea1",
+      "comment": "Open page https://animego.org/",
+      "command": "click",
+      "target": "css=.container > .navbar-brand > img",
+      "targets": [
+        ["css=.container > .navbar-brand > img", "css:finder"],
+        ["xpath=//img[@alt='AnimeGO']", "xpath:img"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "efbecb19-f899-4164-914c-fd98afce2b86",
+    "name": "animego.org",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["850c5c4d-9ee5-48bb-8e5e-6b78832c9901", "dc8774a9-f466-4e23-8723-2ffca51e84a7", "0e86927f-6324-4089-9a2c-bb6bdaa24856", "34fc8506-c85e-40bf-9554-d9ac68823eee", "c807bd33-a169-4947-b803-ca1f393225e7", "12c52cb6-a738-47dc-b54e-cdca5a7f0377"]
+  }],
+  "urls": ["https://animego.org/"],
+  "plugins": []
+}

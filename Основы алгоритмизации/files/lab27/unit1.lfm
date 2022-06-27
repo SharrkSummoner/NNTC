@@ -1,0 +1,86 @@
+object Form1: TForm1
+  Left = 1147
+  Height = 392
+  Top = 378
+  Width = 600
+  Caption = 'Графический редактор'
+  ClientHeight = 367
+  ClientWidth = 600
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 0
+    Height = 368
+    Top = 0
+    Width = 400
+    Caption = 'Panel1'
+    ClientHeight = 368
+    ClientWidth = 400
+    TabOrder = 0
+    object Image1: TImage
+      Left = 8
+      Height = 352
+      Top = 8
+      Width = 384
+      OnMouseDown = Image1MouseDown
+      OnMouseMove = Image1MouseMove
+    end
+  end
+  object ColorListBox1: TColorListBox
+    Left = 408
+    Height = 304
+    Top = 0
+    Width = 184
+    ItemHeight = 0
+    OnClick = ColorListBox1Click
+    TabOrder = 1
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 408
+    Height = 28
+    Top = 328
+    Width = 184
+    MinValue = 1
+    OnChange = SpinEdit1Change
+    TabOrder = 2
+    Value = 1
+  end
+  object OpenPictureDialog1: TOpenPictureDialog
+    Left = 56
+  end
+  object SavePictureDialog1: TSavePictureDialog
+    Left = 184
+  end
+  object MainMenu1: TMainMenu
+    Left = 288
+    object MenuItem1: TMenuItem
+      Caption = 'Рисунок'
+      object MenuItem5: TMenuItem
+        Caption = 'Очистить'
+        OnClick = MenuItem5Click
+      end
+      object MenuItem6: TMenuItem
+        Caption = 'Открыть'
+        OnClick = MenuItem6Click
+      end
+      object MenuItem7: TMenuItem
+        Caption = 'Сохранить'
+        OnClick = MenuItem7Click
+      end
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Справка'
+      OnClick = MenuItem2Click
+    end
+    object MenuItem3: TMenuItem
+      Caption = 'Об авторе'
+      OnClick = MenuItem3Click
+    end
+    object MenuItem4: TMenuItem
+      Caption = 'Выход'
+      OnClick = MenuItem4Click
+    end
+  end
+end

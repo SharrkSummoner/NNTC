@@ -1,0 +1,101 @@
+object Form1: TForm1
+  Left = 702
+  Height = 504
+  Top = 163
+  Width = 554
+  Caption = 'Питерский ресторан'
+  ClientHeight = 504
+  ClientWidth = 554
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object CheckListBox1: TCheckListBox
+    Left = 48
+    Height = 296
+    Top = 56
+    Width = 382
+    Font.Height = -17
+    Items.Strings = (
+      'Пажилые сырники'
+      'Чувашская пица'
+      'Cumпот'
+      'Slave бургер'
+      'Японские яички'
+      'Стакан воды'
+      'Шаверма с кошкой'
+      'Шаверма с травой'
+      'Харча деда'
+      'Французские пальчики'
+      'Freeze anal'
+      'Черный раб'
+    )
+    ItemHeight = 23
+    OnClick = CheckListBox1Click
+    ParentFont = False
+    TabOrder = 0
+    Data = {
+      0C000000000000000000000000000000
+    }
+  end
+  object ListBox1: TListBox
+    Left = 430
+    Height = 296
+    Top = 56
+    Width = 58
+    Font.Height = -17
+    Items.Strings = (
+      '130'
+      '350'
+      '450'
+      '110'
+      '25'
+      '300'
+      '34'
+      '340'
+      '500'
+      '10'
+      '200'
+      '190'
+    )
+    ItemHeight = 23
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 208
+    Height = 45
+    Top = 8
+    Width = 104
+    Caption = 'МЕНЮ'
+    Font.Height = -33
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 48
+    Height = 35
+    Top = 400
+    Width = 100
+    Caption = 'Сумма= '
+    Font.Height = -25
+    ParentColor = False
+    ParentFont = False
+  end
+  object Panel1: TPanel
+    Left = 149
+    Height = 35
+    Top = 400
+    Width = 96
+    Font.Height = -25
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button1: TButton
+    Left = 386
+    Height = 35
+    Top = 400
+    Width = 102
+    Caption = 'Закрыть'
+    OnClick = Button1Click
+    TabOrder = 3
+  end
+end

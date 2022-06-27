@@ -1,0 +1,90 @@
+CREATE TABLE IF NOT EXISTS Roles (
+  idRoles INT NOT NULL,
+  Name VARCHAR(45) NULL,
+  PRIMARY KEY (idRoles))
+
+CREATE TABLE IF NOT EXISTS Teachers (
+  idTeachers INT NOT NULL,
+  Surname VARCHAR(50) NULL,
+  Name VARCHAR(45) NULL,
+  Patronymic VARCHAR(45) NULL,
+  Roles_idRoles INT NOT NULL,
+  login VARCHAR(10) NULL,
+  password VARCHAR(10) NULL,
+  PRIMARY KEY (idTeachers),
+  FOREIGN KEY (Roles_idRoles)
+  REFERENCES Roles (idRoles)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS Gruppa (
+  idGruppa INT NOT NULL,
+  Name VARCHAR(45) NULL,
+  PRIMARY KEY (idGruppa))
+
+CREATE TABLE IF NOT EXISTS Students (
+  idStudents INT NOT NULL,
+  Surname VARCHAR(45) NULL,
+  Name VARCHAR(45) NULL,
+  Patronymic VARCHAR(45) NULL,
+  Roles_idRoles INT NOT NULL,
+  login VARCHAR(10) NULL,
+  password VARCHAR(45) NULL,
+  PRIMARY KEY (idStudents),
+  FOREIGN KEY (Roles_idRoles)
+  REFERENCES Roles (idRoles)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION)
+
+CREATE TABLE IF NOT EXISTS Subject (
+  idSubject INT NOT NULL,
+  Name VARCHAR(200) NULL,
+  PRIMARY KEY (idSubject))
+ENGINE = InnoDB;
+
+CREATE TABLE IF NOT EXISTS Students_has_Subject (
+  Students_idStudents INT NOT NULL,
+  Subject_idSubject INT NOT NULL,
+  Date_mark DATE NULL,
+  Mark INT NULL,
+  PRIMARY KEY (Students_idStudents, Subject_idSubject),
+  FOREIGN KEY (Students_idStudents)
+  REFERENCES Students (idStudents)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION,
+  FOREIGN KEY (Subject_idSubject)
+  REFERENCES Subject (idSubject)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION)
+
+CREATE TABLE IF NOT EXISTS Subject_has_Teachers (
+  Subject_idSubject INT NOT NULL,
+  Teachers_idTeachers INT NOT NULL,
+  Gruppa_idGruppa INT NOT NULL,
+  PRIMARY KEY (Subject_idSubject, Teachers_idTeachers),
+  FOREIGN KEY (Subject_idSubject)
+  REFERENCES Subject (idSubject)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION,
+  FOREIGN KEY (Teachers_idTeachers)
+  REFERENCES Teachers (idTeachers)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION, 
+  FOREIGN KEY (Gruppa_idGruppa)
+  REFERENCES Gruppa (idGruppa)
+  ON DELETE NO ACTION
+  ON UPDATE NO ACTION)
+
+create table students_grupp (
+	idgruppa int,
+	idstudents int,
+	PRIMARY KEY (idgruppa, idstudents),
+    FOREIGN KEY (idgruppa)
+    REFERENCES gruppa (idgruppa)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+    FOREIGN KEY (idstudents)
+    REFERENCES students (idstudents)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)

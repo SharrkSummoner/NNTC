@@ -1,0 +1,129 @@
+<html><head>
+<title>Schema Report for database: mydb</title>
+<style>
+        td,th {
+        text-align:left;
+        vertical-align:middle;
+        }
+        table {
+        border-collapse: collapse;
+        border: 1px solid;
+        }
+        caption, th, td {
+        padding: .2em .8em;
+        border: 1px solid #000000;
+        }
+        caption {
+        background: #D3D3D3;
+        font-weight: bold;
+        font-size: 1.1em;
+        }
+        th {
+        font-weight: bold;
+        background: #000000;
+        color: white;
+        }
+        td {
+        background: #FFFFFF;
+        }
+        </style>
+      </head>
+     <body>
+<h1>Schema Report for database: mydb</h1>
+<a id="home">Table List </a><br /><ul>
+<li><a href="#students">students </a></li>
+<li><a href="#groups">groups </a></li>
+<li><a href="#students_has_enterprice_practice">students_has_enterprice_practice </a></li>
+<li><a href="#practice_curators">practice_curators </a></li>
+<li><a href="#practice_type">practice_type </a></li>
+</ul>
+<a id="students"></a><table style="width:100%"><caption>Table: students </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>student_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>name</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>surname</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>patronymic</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>birthday</td><td>DATE</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>sex</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>group_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="groups"></a><table style="width:100%"><caption>Table: groups </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>group_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>name</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="students_has_enterprice_practice"></a><table style="width:100%"><caption>Table: students_has_enterprice_practice </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>st_pe_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>student_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>enterprice</td><td>VARCHAR(55)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>date_start</td><td>DATE</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>date_end</td><td>DATE</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>mark</td><td>INT</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>comment</td><td>VARCHAR(300)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>curator_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+<tr><td>type_id</td><td>INT</td><td>Yes</td><td>No</td><td>Yes</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="practice_curators"></a><table style="width:100%"><caption>Table: practice_curators </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>curator_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>name</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>surname</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+<tr><td>patronimyc</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+<a id="practice_type"></a><table style="width:100%"><caption>Table: practice_type </caption>
+<tr><td>Table Comments</td><td colspan="6"></td></tr>
+<tr><td colspan="7">Columns</td></tr>
+        <tr>
+        <th>Name</th>
+        <th>Data Type</th>
+        <th>Nullable</th>
+        <th>PK</th>
+        <th>FK</th>
+        <th>Default</th>
+        <th>Comment</th>
+        </tr>
+<tr><td>type_id</td><td>INT</td><td>Yes</td><td>Yes</td><td>No</td><td></td><td></td></tr>
+<tr><td>name</td><td>VARCHAR(45)</td><td>No</td><td>No</td><td>No</td><td></td><td></td></tr>
+</table><a href="#home">Table List </a></br>
+</body></html>

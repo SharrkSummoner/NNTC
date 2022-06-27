@@ -1,0 +1,11 @@
+object Form1: TForm1
+  Left = 1368
+  Height = 300
+  Top = 421
+  Width = 400
+  Caption = 'График функции F=cos(x)*x'
+  DesignTimePPI = 120
+  OnPaint = FormPaint
+  OnResize = FormResize
+  LCLVersion = '2.0.12.0'
+end

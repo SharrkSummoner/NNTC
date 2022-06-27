@@ -1,0 +1,84 @@
+object Form1: TForm1
+  Left = 518
+  Height = 446
+  Top = 197
+  Width = 942
+  Caption = 'Лабораторная работа "Особенности работы с массивами в DELPHI"'
+  ClientHeight = 446
+  ClientWidth = 942
+  LCLVersion = '2.0.8.0'
+  object StringGrid1: TStringGrid
+    Left = 160
+    Height = 48
+    Top = 48
+    Width = 712
+    ColCount = 11
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing, goTabs, goAlwaysShowEditor, goSmoothScroll]
+    RowCount = 2
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 40
+    Top = 48
+    Width = 99
+    Caption = 'Массив'
+    Font.Height = -29
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 40
+    Height = 70
+    Top = 144
+    Width = 144
+    Caption = 'Сортировка'
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 216
+    Height = 70
+    Top = 144
+    Width = 144
+    Caption = 'Сумма'
+    OnClick = BitBtn2Click
+    TabOrder = 2
+  end
+  object Edit1: TEdit
+    Left = 512
+    Height = 23
+    Top = 168
+    Width = 80
+    Enabled = False
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 416
+    Height = 32
+    Top = 160
+    Width = 73
+    Caption = 'Сумма'
+    Font.Height = -24
+    ParentColor = False
+    ParentFont = False
+  end
+  object BitBtn3: TBitBtn
+    Left = 40
+    Height = 70
+    Top = 352
+    Width = 144
+    Caption = 'Выход'
+    OnClick = BitBtn3Click
+    TabOrder = 4
+  end
+  object BitBtn4: TBitBtn
+    Left = 752
+    Height = 70
+    Top = 352
+    Width = 144
+    Caption = 'Двумерный массив'
+    OnClick = BitBtn4Click
+    TabOrder = 5
+  end
+end

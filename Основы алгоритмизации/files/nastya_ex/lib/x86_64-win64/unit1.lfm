@@ -1,0 +1,33 @@
+object Form1: TForm1
+  Left = 1483
+  Height = 300
+  Top = 299
+  Width = 400
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 160
+    Height = 70
+    Top = 120
+    Width = 70
+    Caption = 'Panel1'
+    ClientHeight = 70
+    ClientWidth = 70
+    TabOrder = 0
+    object Shape1: TShape
+      Left = 0
+      Height = 69
+      Top = 0
+      Width = 69
+      Shape = stCircle
+    end
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 176
+    Top = 16
+  end
+end

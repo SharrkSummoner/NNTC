@@ -1,0 +1,63 @@
+object Form1: TForm1
+  Left = 1065
+  Height = 408
+  Top = 261
+  Width = 608
+  BorderStyle = bsSingle
+  Caption = 'Form1'
+  ClientHeight = 408
+  ClientWidth = 608
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 116
+    Height = 272
+    Top = 71
+    Width = 376
+    Caption = 'Panel1'
+    ClientHeight = 272
+    ClientWidth = 376
+    ParentFont = False
+    TabOrder = 0
+    object Button1: TButton
+      Left = 0
+      Height = 81
+      Top = 100
+      Width = 94
+      Caption = '<'
+      OnClick = Button1Click
+      ParentFont = False
+      TabOrder = 0
+    end
+    object Button2: TButton
+      Left = 280
+      Height = 81
+      Top = 100
+      Width = 92
+      Caption = '>'
+      OnClick = Button2Click
+      ParentFont = False
+      TabOrder = 1
+    end
+    object Button3: TButton
+      Left = 140
+      Height = 81
+      Top = 0
+      Width = 94
+      Caption = '^'
+      OnClick = Button3Click
+      ParentFont = False
+      TabOrder = 2
+    end
+    object Button4: TButton
+      Left = 140
+      Height = 81
+      Top = 190
+      Width = 94
+      Caption = 'v'
+      OnClick = Button4Click
+      ParentFont = False
+      TabOrder = 3
+    end
+  end
+end

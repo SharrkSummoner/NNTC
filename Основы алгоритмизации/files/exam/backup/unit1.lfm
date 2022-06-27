@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 1479
+  Height = 300
+  Top = 334
+  Width = 400
+  Caption = 'Form1'
+  ClientHeight = 300
+  ClientWidth = 400
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 144
+    Height = 28
+    Top = 64
+    Width = 100
+    NumbersOnly = True
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 96
+    Height = 20
+    Top = 24
+    Width = 194
+    Caption = 'Введите натуральное число'
+    ParentColor = False
+  end
+  object Button1: TButton
+    Left = 144
+    Height = 31
+    Top = 120
+    Width = 100
+    Caption = 'Обработать'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 64
+    Height = 20
+    Top = 192
+    Width = 73
+    Caption = 'max число'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 264
+    Height = 20
+    Top = 192
+    Width = 70
+    Caption = 'min число'
+    ParentColor = False
+  end
+  object Label4: TLabel
+    Left = 64
+    Height = 31
+    Top = 240
+    Width = 67
+    Caption = 'Label4'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -23
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 272
+    Height = 31
+    Top = 240
+    Width = 67
+    Caption = 'Label5'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -23
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Edit2: TEdit
+    Left = 280
+    Height = 28
+    Top = 72
+    Width = 100
+    TabOrder = 2
+    Text = 'Edit2'
+  end
+end

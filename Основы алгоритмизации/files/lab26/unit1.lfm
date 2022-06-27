@@ -1,0 +1,126 @@
+object Form1: TForm1
+  Left = 1203
+  Height = 400
+  Top = 296
+  Width = 600
+  Caption = 'Список группы'
+  ClientHeight = 375
+  ClientWidth = 600
+  DesignTimePPI = 120
+  Menu = MainMenu1
+  OnCreate = FormCreate
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 144
+    Height = 28
+    Top = 96
+    Width = 192
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 144
+    Height = 28
+    Top = 160
+    Width = 192
+    TabOrder = 1
+  end
+  object Label1: TLabel
+    Left = 24
+    Height = 28
+    Top = 96
+    Width = 101
+    Caption = 'ФАМИЛИЯ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 80
+    Height = 28
+    Top = 160
+    Width = 45
+    Caption = 'ИМЯ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 24
+    Height = 40
+    Top = 220
+    Width = 312
+    Caption = 'ДОБАВИТЬ В СПИСОК'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = Button1Click
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 352
+    Height = 40
+    Top = 280
+    Width = 229
+    Caption = 'УДАЛИТЬ'
+    OnClick = Button2Click
+    TabOrder = 3
+  end
+  object CheckBox1: TCheckBox
+    Left = 48
+    Height = 32
+    Top = 280
+    Width = 270
+    Caption = 'В АЛФАВИТНОМ ПОРЯДКЕ'
+    Font.CharSet = RUSSIAN_CHARSET
+    Font.Color = clBlack
+    Font.Height = -20
+    Font.Name = 'Segoe UI'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    OnClick = CheckBox1Click
+    ParentFont = False
+    TabOrder = 4
+  end
+  object ListBox1: TListBox
+    Left = 352
+    Height = 244
+    Top = 16
+    Width = 229
+    ItemHeight = 0
+    TabOrder = 5
+  end
+  object MainMenu1: TMainMenu
+    Left = 24
+    Top = 16
+    object MenuItem1: TMenuItem
+      Caption = 'Открыть файл'
+      OnClick = MenuItem1Click
+    end
+    object MenuItem2: TMenuItem
+      Caption = 'Сохранить файл'
+      OnClick = MenuItem2Click
+    end
+  end
+  object OpenDialog1: TOpenDialog
+    Left = 192
+    Top = 16
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 104
+    Top = 16
+  end
+end

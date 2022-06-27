@@ -1,0 +1,125 @@
+object Form1: TForm1
+  Left = 1262
+  Height = 600
+  Top = 216
+  Width = 593
+  Caption = 'Form1'
+  ClientHeight = 600
+  ClientWidth = 593
+  DesignTimePPI = 120
+  LCLVersion = '2.0.12.0'
+  object Panel1: TPanel
+    Left = 248
+    Height = 40
+    Top = 88
+    Width = 112
+    Caption = 'ЯМЫПАНЕЛЬ'
+    Color = clFuchsia
+    ParentColor = False
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 256
+    Height = 31
+    Top = 256
+    Width = 94
+    Caption = 'Вниз'
+    OnClick = Button1Click
+    TabOrder = 1
+  end
+  object Button2: TButton
+    Left = 256
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Вверх'
+    OnClick = Button2Click
+    TabOrder = 2
+  end
+  object Button3: TButton
+    Left = 152
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Влево'
+    OnClick = Button3Click
+    TabOrder = 3
+  end
+  object Button4: TButton
+    Left = 360
+    Height = 31
+    Top = 216
+    Width = 94
+    Caption = 'Вправо'
+    OnClick = Button4Click
+    TabOrder = 4
+  end
+  object Button5: TButton
+    Left = 16
+    Height = 31
+    Top = 256
+    Width = 118
+    Caption = 'Сменить место'
+    OnClick = Button5Click
+    TabOrder = 5
+  end
+  object Shape1: TShape
+    Left = 17
+    Height = 29
+    Top = 218
+    Width = 115
+    OnMouseDown = Shape1MouseDown
+  end
+  object Button6: TButton
+    Left = 88
+    Height = 31
+    Top = 344
+    Width = 102
+    Caption = 'Круг'
+    OnClick = Button6Click
+    TabOrder = 6
+  end
+  object Button7: TButton
+    Left = 88
+    Height = 31
+    Top = 496
+    Width = 102
+    Caption = 'Квадрат'
+    OnClick = Button7Click
+    TabOrder = 7
+  end
+  object Shape2: TShape
+    Left = 104
+    Height = 70
+    Top = 400
+    Width = 70
+    Shape = stSquare
+  end
+  object Shape3: TShape
+    Left = 400
+    Height = 81
+    Top = 400
+    Width = 81
+    Constraints.MinHeight = 10
+    Constraints.MinWidth = 10
+    Shape = stCircle
+  end
+  object Button8: TButton
+    Left = 384
+    Height = 31
+    Top = 296
+    Width = 102
+    Caption = 'Уменьшить'
+    OnClick = Button8Click
+    TabOrder = 8
+  end
+  object Button9: TButton
+    Left = 392
+    Height = 31
+    Top = 552
+    Width = 104
+    Caption = 'Увеличить'
+    OnClick = Button9Click
+    TabOrder = 9
+  end
+end
